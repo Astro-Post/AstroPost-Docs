@@ -8,7 +8,8 @@ export default defineConfig({
   integrations: [starlight({
     title: 'AstroPost Docs',
     social: {
-      github: 'https://github.com/withastro/starlight'
+      github: 'https://github.com/airpioa',
+      youtube: 'https://www.youtube.com/@dzoofop1',
     },
     sidebar: [{
       label: 'Guides',
