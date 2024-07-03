@@ -6,9 +6,9 @@ import tailwind from "@astrojs/tailwind";
 // https://astro.build/config
 export default defineConfig({
   integrations: [starlight({
-    title: 'My Docs',
+    title: 'AstroPost Docs',
     social: {
-      github: 'https://github.com/withastro/starlight'
+      github: 'https://github.com/airpioa'
     },
     sidebar: [{
       label: 'Guides',
