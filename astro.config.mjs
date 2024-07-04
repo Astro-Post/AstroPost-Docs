@@ -10,6 +10,7 @@ export default defineConfig({
     social: {
       github: 'https://github.com/airpioa',
       youtube: 'https://www.youtube.com/@dzoofop1',
+      discord: 'https://discord.gg/dmCwTQDfXh',
     },
     sidebar: [{
       label: 'Guides',
