@@ -7,6 +7,7 @@ import markdoc from "@astrojs/markdoc";
 
 // https://astro.build/config
 export default defineConfig({
+
   output: 'server',
   adapter: netlify({
     edgeMiddleware: true
@@ -34,6 +35,7 @@ export default defineConfig({
         directory: 'reference'
       }
     }]
+
   }), tailwind(), markdoc()],
   output: "server",
   adapter: netlify()
