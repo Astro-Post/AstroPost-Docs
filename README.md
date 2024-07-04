@@ -1,6 +1,7 @@
 # AstroPost Docs
 
 [![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e7f48895-14ac-4134-aad5-bfdd2c3f0078/deploy-status)](https://app.netlify.com/sites/playful-sorbet-439477/deploys)
 Coding and runing temp
 ```
 npm create astro@latest -- --template starlight
