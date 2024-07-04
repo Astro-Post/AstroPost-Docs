@@ -7,14 +7,17 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   integrations: [starlight({
     title: 'AstroPost Docs',
-    social: 
+    social: {
+      github: 'https://github.com/airpioa',
+      youtube: 'https://www.youtube.com/@dzoofop1',
+      discord: 'https://discord.gg/dmCwTQDfXh',
     },
     sidebar: [{
       label: 'Guides',
       items: [
       // Each item here is one entry in the navigation menu.
       {
-        label: 'Example Guide',
+        label: 'Guide',
         link: '/guides/example/'
       }]
     }, {
