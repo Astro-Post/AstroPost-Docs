@@ -5,6 +5,8 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://airpioa.github.io',
+  base: 'AstroPost-Docs',
   integrations: [starlight({
     title: 'AstroPost Docs',
     social: {
