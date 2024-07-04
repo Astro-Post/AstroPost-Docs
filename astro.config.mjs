@@ -7,8 +7,7 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   integrations: [starlight({
     title: 'AstroPost Docs',
-    social: {
-      github: 'https://github.com/airpioa'
+    social: 
     },
     sidebar: [{
       label: 'Guides',
