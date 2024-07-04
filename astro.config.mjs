@@ -1,13 +1,16 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import tailwind from "@astrojs/tailwind";
-
 import netlify from "@astrojs/netlify";
+
+import markdoc from "@astrojs/markdoc";
 
 // https://astro.build/config
 export default defineConfig({
   output: 'server',
-  adapter: netlify({edgeMiddleware: true}),
+  adapter: netlify({
+    edgeMiddleware: true
+  }),
   site: 'https://airpioa.github.io',
   base: 'AstroPost-Docs',
   integrations: [starlight({
@@ -18,12 +21,12 @@ export default defineConfig({
       discord: 'https://discord.gg/dmCwTQDfXh'
     },
     sidebar: [{
-      label: 'Guides',
+      label: 'Pages',
       items: [
       // Each item here is one entry in the navigation menu.
       {
-        label: 'Guide',
-        link: '/guides/example/'
+        label: 'Release-Notes',
+        link: '/AstroPost-Docs/Release-Notes/'
       }]
     }, {
       label: 'Reference',
@@ -31,7 +34,7 @@ export default defineConfig({
         directory: 'reference'
       }
     }]
-  }), tailwind()],
+  }), tailwind(), markdoc()],
   output: "server",
   adapter: netlify()
 });
